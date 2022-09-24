@@ -140,6 +140,15 @@
  }
 
 
+/*LINK AL FORMULARIO EN FRASE DEL INCIO*/
+.linkalFormulario{
+  color: #da79a4;
+  transition: 0.3s;
+}
+.linkalFormulario:hover{
+  color: #f191bc;
+}
+
 
 /*MEDIA QUERY*/
 
