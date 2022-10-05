@@ -47,11 +47,11 @@ const cards =  [
 
 export default function tarjetaid() {
   return (
-    <Container>
-      <Grid container rowSpacing={3} columnSpacing={{ xs: 12, sm: 12, md: 12, lg: 12 }}>
+    <Container maxWidth={"lg"}>
+      <Grid container rowSpacing={3} columnSpacing={{ xs: 12, sm: 12, md: 12, lg:12 }} >
         {
             cards.map(tarjetasMain => (
-                  <Grid item xs key={tarjetasMain.id}  display="flex" alignItems="center" justifyContent="center" textAlign="center" >
+                  <Grid item key={tarjetasMain.id}  display="flex" alignItems="center" justifyContent="center" textAlign="center" >
                      <Carta title={tarjetasMain.title} descripcion={tarjetasMain.descripcion} imagen={tarjetasMain.image} />
                   </Grid>
             ))

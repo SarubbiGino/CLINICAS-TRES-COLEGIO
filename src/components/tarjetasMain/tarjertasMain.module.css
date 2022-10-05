@@ -9,7 +9,7 @@
     
   }*/
   .carta{
-  
+    
     margin: 30px;
     background-color: #ffffff;
     color: rgb(61, 61, 61);
@@ -44,3 +44,121 @@
    
   }
   
+  @media (max-width: 1920px) {
+    .carta {
+      display: flex;
+    }
+    .IMG{
+      height: 400px;
+      width: 400px;
+    }
+    .detallesCard{
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      justify-content: center;
+    }
+    .titulo{
+      font-size: 45px;
+    }
+    .parrafo{
+      font-size: 28px;
+      margin-right: 20px;
+    }
+    .boton{
+      height: 60px;
+      width: 270px;
+      font-size: 30px;
+    }
+  }
+
+
+    
+  @media (max-width: 1440px) {
+    .carta {
+      display: flex;
+    }
+    .IMG{
+      height: 250px;
+      width: 250px;
+    }
+    .detallesCard{
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      justify-content: center;
+    }
+    .titulo{
+      font-size: 35px;
+    }
+    .parrafo{
+      font-size: 20px;
+      margin: 0;
+    }
+    .boton{
+      height: 40px;
+      width: 220px;
+      font-size: 20px;
+    }
+  }
+
+
+  
+    
+  @media (max-width: 768px) {
+    .carta {
+      display: flex;
+      flex-direction: column;
+    }
+    .IMG{
+      height: 290px;
+      width: 100%;
+    }
+    .detallesCard{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+    }
+    .titulo{
+      font-size: 25px;
+    }
+    .parrafo{
+      font-size: 15px;
+    }
+    .boton{
+      height: 30px;
+      width: 170px;
+      font-size: 15px;
+    }
+  }
+
+
+      
+  @media (max-width: 768px) {
+    .carta {
+      display: flex;
+      flex-direction: column;
+    }
+    .IMG{
+      height: 220px;
+      width: 100%;
+    }
+    .detallesCard{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+    }
+    .titulo{
+      font-size: 20px;
+    }
+    .parrafo{
+      font-size: 13px;
+    }
+    .boton{
+      height: 30px;
+      width: 170px;
+      font-size: 15px;
+    }
+  }
