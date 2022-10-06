@@ -9,41 +9,56 @@
     
   }*/
   .carta{
-    
-    margin: 30px;
-    background-color: #ffffff;
-    color: rgb(61, 61, 61);
-    border-radius: 8px;
-    transition: ease .1s;
-    cursor: pointer;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-
-  }
-  .carta:hover{
-    transform: translateY(-2px);
-   
-  }
- 
-  .boton{
-    background-color:#2d13a3;;
-    font-family: 'Cabin', sans-serif;
-    color: rgb(235, 235, 235);
-    width: 140px;
-    height: 40px;
-    font-weight: 500;
-    border-radius: 0;
-    border: none;
-    transition: all .3s ease-in-out;
-  }
-  .boton:hover{
-    background-color: rgb(99, 73, 216);
+    margin: 50px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: all .2s;
+    box-shadow: none;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    filter: drop-shadow(-1px -4px 2px rgb(255, 83, 255));
   }
   
   .contenedorBoton{
-    justify-content: center;
+    justify-content: flex-end;
+    margin-left: 10px;
    
   }
   
+  .boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee4b;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    gap: 5px;
+    border: 3px solid #FF0072;
+    color: #FF0072;
+    text-decoration: none;
+
+  }
+   
+   .boton:hover  {
+    transform: translateY(-2px);
+   }
+   
+  .color{
+  position: absolute;
+  background-color: rgb(194, 63, 194);
+  width: 160px;
+  height: 160px;
+  border-radius: 100%; 
+  backdrop-filter: blur(10px);
+  filter: blur(1.3px);
+  
+  }
+
+  
+
   @media (max-width: 1920px) {
     .carta {
       display: flex;
@@ -103,6 +118,39 @@
   }
 
 
+    
+  @media (max-width: 1280px) {
+    .carta {
+      display: flex;
+    }
+    .IMG{
+      height: 200px;
+      width: 200px;
+    }
+    .detallesCard{
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      justify-content: center;
+    }
+    .titulo{
+      font-size: 35px;
+    }
+    .parrafo{
+      font-size: 15px;
+      margin: 0;
+    }
+    .boton{
+      height: 30px;
+      width: 150px;
+      font-size: 15px;
+      
+    }
+    
+  }
+
+
+
   
     
   @media (max-width: 768px) {
@@ -130,6 +178,9 @@
       height: 30px;
       width: 170px;
       font-size: 15px;
+    }
+    .contenedorBoton{
+      justify-content: center;
     }
   }
 

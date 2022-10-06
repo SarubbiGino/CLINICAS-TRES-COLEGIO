@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;600;700&display=swap");
 .footer {
   padding: 2rem 0;
-  background-color: /*rgb(27, 2, 87)*/ #175ae9;
+  background: rgb(63,72,194);
+  background: linear-gradient(90deg, rgba(63,72,194,1) 0%, rgba(70,133,224,1) 47%, rgba(49,177,238,1) 100%); 
+  border-top: 1px solid #eaeaea;
   margin: 0;
   color: white;
 }
@@ -50,3 +52,5 @@
 .parrafoClinicas {
   text-align: center;
 }
+
+

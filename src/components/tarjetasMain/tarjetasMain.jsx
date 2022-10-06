@@ -25,6 +25,8 @@ export default function tarjetasMain({ title, descripcion, imagen}) {
   return (
 
     <container className="contenidodecard"  > 
+    <div className={estilos.color}></div>
+     
       <Card   className={estilos.carta} >
         <CardMedia component="img" height="140" image={imagen}  alt="Donar" className={estilos.IMG} />
       <div className = {estilos.detallesCard}>
@@ -41,6 +43,7 @@ export default function tarjetasMain({ title, descripcion, imagen}) {
          </CardActions>
       </div>
       </Card>
+   
     </container>
 
 

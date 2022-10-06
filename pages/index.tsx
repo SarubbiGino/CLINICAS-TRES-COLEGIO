@@ -27,7 +27,6 @@ const Home = () => {
       <main className={styles.main}>
         <TituloMain />
         <h1 className={styles.empiezaDonar}>Empieza a Donar</h1>
-        <h2  className={styles.txtcomodonar}>¿COMO DONAR SANGRE?</h2>
         <Tarjetas/>
       </main>
 

@@ -105,6 +105,15 @@
   margin-left: 0.5rem;
 }
 
+
+
+
+
+
+
+
+
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
@@ -114,18 +123,20 @@
 
 
 
+
+
 /* 
 CSS DE LA PAGINA DE INICIO
  */
 
 .empiezaDonar{
   font-size: 40px;
- 
-  
+  margin-bottom: 60px; 
+  color: #fafafa;
+  filter: drop-shadow(1px 2px 2px rgb(255, 83, 255));
+  letter-spacing: 5px;
 }
-.txtcomodonar{
-  margin-bottom: 30px;
-}
+
 
 @media only screen and (max-width: 295px) {
   .empiezaDonar{
