@@ -26,18 +26,17 @@ export default function tarjetasMain({ title, descripcion, imagen}) {
 
     <container className="contenidodecard"  > 
     <div className={estilos.color}></div>
-     
       <Card   className={estilos.carta} >
-        <CardMedia component="img" height="140" image={imagen}  alt="Donar" className={estilos.IMG} />
-      <div className = {estilos.detallesCard}>
+          <CardMedia component="img" height="140" src={imagen}  alt="Donar" className={estilos.IMG} />
+            <div className = {estilos.detallesCard}>
         <CardContent >
-         <Typography gutterBottom variant="h5" component="div" className={estilos.titulo}>
-           {title}
-         </Typography>
-         <Typography variant="body1" color="#8b8b8b;" className={estilos.parrafo}>
-           {descripcion}
-        </Typography>
-        </CardContent>
+           <Typography gutterBottom variant="h5" component="div" className={estilos.titulo}>
+              {title}
+           </Typography>
+           <Typography variant="body1" color="#8b8b8b;" className={estilos.parrafo}>
+             {descripcion}
+           </Typography>
+       </CardContent>
           <CardActions className={estilos.contenedorBoton}>
              <Button className={estilos.boton}>Donar</Button>
          </CardActions>

@@ -19,24 +19,18 @@ export default function Footer() {
   return (
   <Box className={estilos.footer}>
     <Container maxWidth = "lg">
-        <Grid container spacing = {5}  direction="column" alignItems="center" justifyContent="center">
-            <Grid item xs ={12} sm={4} alignItems="center" justifyContent="center" >
-            <Box className={estilos.clinicas} alignItems="center" justifyContent="center" textAlign="center">Hospital de clinicas</Box>
-                <Box className={estilos.contenedorClinicas}>
-                    <p className={estilos.parrafoClinicas}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                </Box>
-            </Grid>
+        <Grid container spacing = {5} className={estilos.contenedorFooter} direction="column" alignItems="center" justifyContent="center">
+            <Grid item xs ={12} sm={4} className={estilos.contenedoRedesSociales} >
 
-            <Grid item xs ={12} sm={4} >
              <Box className={estilos.redes}>Redes Sociales</Box>
-                <Box className={estilos.contenedorRedes} >
+                <Box className={estilos.contenedorLogos} >
                    <FacebookIcon className={estilos.logos}/>
                    <TwitterIcon className={estilos.logos}/>
                    <LinkedInIcon className={estilos.logos}/>
                    <WhatsappIcon className={estilos.logos}/> 
                 </Box>
             </Grid>
+            <Box className={estilos.clinicas}   alignItems="center" justifyContent="center" textAlign="center">HOSPITAL DE CLÍNICAS "JOSÉ DE SAN MARTÍN" All Rights Reserved</Box>
         </Grid>
     </Container>
   </Box>
