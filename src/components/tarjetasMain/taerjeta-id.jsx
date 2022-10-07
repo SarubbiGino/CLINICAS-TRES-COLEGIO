@@ -47,7 +47,7 @@ const cards =  [
 
 export default function tarjetaid() {
   return (
-    <Container maxWidth={"lg"}>
+    <Container maxWidth={"xxl"}>
       <Grid container rowSpacing={3} columnSpacing={{ xs: 12, sm: 12, md: 12, lg:12 }} >
         {
             cards.map(tarjetasMain => (

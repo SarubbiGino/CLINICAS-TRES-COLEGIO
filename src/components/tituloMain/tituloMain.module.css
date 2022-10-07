@@ -143,3 +143,103 @@
     font-size: 16px;
   }
 }
+
+
+@media (max-width: 1920px) {
+  .Button {
+    font-size: 25px;
+    width: 450px;
+  }
+
+  .titulo {
+    font-size: 70px;
+  }
+  .p{
+    font-size: 25px;
+  }
+  .IMG {
+    height: 700px;
+    width: 700px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .Button {
+    font-size: 19px;
+    width: 340px;
+  }
+
+  .titulo {
+    font-size: 50px;
+  }
+  .p{
+    font-size: 20px;
+  }
+  .IMG {
+    height: 700px;
+    width: 700px;
+  }
+}
+
+
+
+
+@media (max-width: 1440px) {
+  .Button {
+    font-size: 15px;
+    width: 290px;
+  }
+
+  .titulo {
+    font-size: 45px;
+  }
+  .p{
+    font-size: 19px;
+  }
+  .IMG{
+    width: 440px;
+    height: 440px;
+  }
+}
+
+
+
+@media (max-width: 1280px) {
+  .Button {
+    font-size: 15px;
+    width: 290px;
+  }
+
+  .titulo {
+    font-size: 45px;
+  }
+  .p{
+    font-size: 19px;
+  }
+  .IMG{
+    width: 440px;
+    height: 440px;
+  }
+}
+
+
+
+
+
+@media (max-width: 1123px) {
+  .Button {
+    font-size: 15px;
+    width: 290px;
+  }
+
+  .titulo {
+    font-size: 50px;
+  }
+  .p{
+    font-size: 20px;
+  }
+  .IMG{
+    width: 400px;
+    height: 400px;
+  }
+}

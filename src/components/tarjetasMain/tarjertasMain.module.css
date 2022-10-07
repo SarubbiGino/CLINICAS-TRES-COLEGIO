@@ -62,8 +62,8 @@
       display: flex;
     }
     .IMG{
-      height: 400px;
-      width: 400px;
+      height: 300px;
+      width: 300px;
     }
     .detallesCard{
       display: flex;
@@ -72,18 +72,55 @@
       justify-content: center;
     }
     .titulo{
-      font-size: 45px;
+      font-size: 40px;
     }
     .parrafo{
-      font-size: 28px;
+      font-size: 25px;
       margin-right: 20px;
     }
     .boton{
       height: 60px;
       width: 270px;
-      font-size: 30px;
+      font-size: 25px;
     }
   }
+
+
+ 
+  @media (max-width: 1600px) {
+    .carta {
+      display: flex;
+    }
+    .IMG{
+      height: 250px;
+      width: 250px;
+    }
+    .detallesCard{
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      justify-content: center;
+    }
+    .titulo{
+      font-size: 30px;
+    }
+    .parrafo{
+      font-size: 20px;
+      margin-right: 20px;
+    }
+    .boton{
+      height: 40px;
+      width: 240px;
+      font-size: 23px;
+    }
+  }
+
+
+
+
+
+
+
 
 
     
@@ -102,10 +139,10 @@
       justify-content: center;
     }
     .titulo{
-      font-size: 35px;
+      font-size: 33px;
     }
     .parrafo{
-      font-size: 20px;
+      font-size: 19px;
       margin: 0;
     }
     .boton{
