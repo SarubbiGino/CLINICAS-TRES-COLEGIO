@@ -37,33 +37,16 @@ const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
   const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(null);
 
-  const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
-    setAnchorElNav(event.currentTarget);
-  };
-  const handleOpenUserMenu = (event: React.MouseEvent<HTMLElement>) => {
-    setAnchorElUser(event.currentTarget);
-  };
-
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
-  };
-
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
-
-  const { data: session, status } = useSession()
-  const loading = status === 'loading'
-
-
-
-
-
 
   return (
     <AppBar position="static" className={estilos.Appbar}>
       <Container maxWidth="xl" className={estilos.contenedor} >
-        <Toolbar disableGutters >
+        <Toolbar disableGutters sx={{
+          display: 'flex',
+          justifyContent: 'center',
+          textAlign: 'center',
+
+        }} >
           <Typography
             variant="h6"
             noWrap
@@ -81,8 +64,6 @@ const ResponsiveAppBar = () => {
           >
           Hospital De Clinicas
           </Typography>
-      
-         
           <Typography
             variant="h5"
             noWrap
@@ -102,97 +83,9 @@ const ResponsiveAppBar = () => {
           >
             Hospital De Clinicas
           </Typography>
-         
-
-{/*          
-          <div className={estilos.signedInStatus}>
-            <p
-              className={`nojs-show ${!session && loading ? estilos.loading : estilos.loaded
-                }`}
-            >
-              {!session && (
-                <>
-              <Button
-                    href={`/api/auth/signin`}
-                    className={estilos.buttonPrimary2}
-                    onClick={(e) => {
-                      e.preventDefault()
-                      signIn()
-                    }}
-
-                  >
-                   INCIAR SESION
-                  </Button>
-
-
-                  <a
-                    href={`/api/auth/signin`}
-                    className={estilos.buttonPrimary}
-                    onClick={(e) => {
-                      e.preventDefault()
-                      signIn()
-                    }}
-
-                  >
-                    <LoginIcon /> 
-                  </a>
-                </>
-              )}
-              {session?.user && (
-                <>
-                  <span
-                    style={{ backgroundImage: `url(${session.user.image})` }}
-                    className={estilos.avatar}
-                  />
-                  <span className={estilos.signedInText}>
-
-                    <Box sx={{ flexGrow: 0 }}>
-                      <Tooltip title="Open settings">
-                        <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                          <Avatar alt="Remy Sharp" src={session.user.image} />
-                        </IconButton>
-                      </Tooltip>
-                      <Menu
-                        sx={{ mt: '45px' }}
-                        id="menu-appbar"
-                        anchorEl={anchorElUser}
-                        anchorOrigin={{
-                          vertical: 'top',
-                          horizontal: 'right',
-                        }}
-                        keepMounted
-                        transformOrigin={{
-                          vertical: 'top',
-                          horizontal: 'right',
-                        }}
-                        open={Boolean(anchorElUser)}
-                        onClose={handleCloseUserMenu}
-                      >
-                        {settings.map((setting) => (
-                          <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                            <Typography textAlign="center">{setting}</Typography>
-
-
-                          </MenuItem>
-                        ))}
-
-                      </Menu>
-                    </Box>
-
-                  </span>
-
-                </>
-              )}
-            </p>
-          </div> */}
-
-
         </Toolbar>
       </Container>
     </AppBar>
-  );
-};
-
-
-
+  );          
+}
 export default ResponsiveAppBar;
