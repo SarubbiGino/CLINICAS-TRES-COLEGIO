@@ -1,5 +1,4 @@
 import "../styles/globals.css";
-
 import type { AppProps } from "next/app";
 import Layout from "../src/layout/layout";
 import Head from "next/head";
