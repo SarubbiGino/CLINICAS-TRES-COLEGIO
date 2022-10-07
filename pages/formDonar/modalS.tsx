@@ -41,7 +41,7 @@ export default function BasicModal() {
           <Typography className={estilos.titulo} id="modal-modal-title" variant="h6" component="h2">
             Hospital de Clínicas
           </Typography>
-          <p className={estilos.textoerror} id="modal-modal-description" sx={{ mt: 2 }}>
+          <p className={estilos.textoerror} id="modal-modal-description">
             Lamentablemente no cumplís con las condiciones para donar sangre en este momento.
 ¡Seguí promocionando la donación voluntaria de sangre!
           </p>

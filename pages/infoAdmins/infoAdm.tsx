@@ -2,7 +2,7 @@ import * as React from 'react';
 import useSWR from 'swr'
 import { DataGrid, GridColDef, GridValueGetterParams } from '@mui/x-data-grid';
 import { getMaxListeners } from 'process';
-import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
+
 import Button from '@mui/material/Button';
 import estilos from '../infoAdmins/info.module.css'
 import AddIcon from '../infoAdmins/modalAdd'

@@ -2,7 +2,6 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Navbar from "../src/components/navbar/navbar";
 import Layout from "../src/layout/layout";
 import TituloMain from "../src/components/tituloMain/tituloMain";
 import TarjetaMain from "../src/components/tarjetasMain/tarjetasMain";
