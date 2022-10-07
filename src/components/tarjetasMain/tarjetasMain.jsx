@@ -27,7 +27,7 @@ export default function tarjetasMain({ title, descripcion, imagen}) {
     <container className="contenidodecard"  > 
     <div className={estilos.color}></div>
       <Card   className={estilos.carta} >
-          <CardMedia component="img" height="140" src={imagen}  alt="Donar" className={estilos.IMG} />
+          <CardMedia component="img" height="140"   src={imagen}  alt="Donar" className={estilos.IMG} />
             <div className = {estilos.detallesCard}>
         <CardContent >
            <Typography gutterBottom variant="h5" component="div" className={estilos.titulo}>

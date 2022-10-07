@@ -24,9 +24,9 @@ export default function Footer() {
             <Box className={estilos.redes}>Redes Sociales</Box>
             <Box className={estilos.contenedorLogos} >
 
-              <a href="https://m.facebook.com/profile.php?id=110189185672713"><FacebookIcon className={estilos.logos} /></a>
-              <a href="https://twitter.com/Prensaclinicas?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><TwitterIcon className={estilos.logos} /></a>
-              <a href="https://www.instagram.com/hospitaldeclinicasok/?hl=es">  <InstagramIcon className={estilos.logos} /> </a>
+              <a href="https://m.facebook.com/profile.php?id=110189185672713"><FacebookIcon  /></a>
+              <a href="https://twitter.com/Prensaclinicas?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><TwitterIcon /></a>
+              <a href="https://www.instagram.com/hospitaldeclinicasok/?hl=es">  <InstagramIcon  /> </a>
               <WhatsappIcon className={estilos.logos} />
             </Box>
           </Grid>
