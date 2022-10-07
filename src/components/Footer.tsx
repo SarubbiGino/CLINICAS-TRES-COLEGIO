@@ -8,10 +8,9 @@ import Grid from '@mui/material/Grid'
 import estilos from '../components/footer.module.css'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
-import TelegramIcon from '@mui/icons-material/Telegram';
 import FacebookIcon from '@mui/icons-material/FacebookTwoTone';
 import WhatsappIcon from '@mui/icons-material/WhatsApp';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
 
 
 
