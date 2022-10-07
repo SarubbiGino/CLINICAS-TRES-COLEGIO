@@ -45,7 +45,6 @@ const ResponsiveAppBar = () => {
           display: 'flex',
           justifyContent: 'center',
           textAlign: 'center',
-
         }} >
           <Typography
             variant="h6"
