@@ -38,7 +38,7 @@ export default function tarjetasMain({ title, descripcion, imagen}) {
            </Typography>
        </CardContent>
           <CardActions className={estilos.contenedorBoton}>
-             <Button className={estilos.boton}>Donar</Button>
+             <button className={estilos.boton}>Donar</button>
          </CardActions>
       </div>
       </Card>

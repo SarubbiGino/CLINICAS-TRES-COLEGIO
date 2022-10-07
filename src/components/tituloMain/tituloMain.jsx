@@ -15,7 +15,18 @@ import { motion } from "framer-motion";
 export default function tituloMain() {
   return (
       
-      <Container maxWidth={false} className={estilos.contenedor}>
+      <Container maxWidth={false} sx={{
+        marginBottom: "80px",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        alignContent: "center",
+        width: "100%",
+        height: "100vh",
+        marginBottom: "80px",
+        background: "rgb(63, 72, 194)",
+        background: "linear-gradient(90deg, rgba(63, 72, 194, 1) 0%, rgba(70, 133, 224, 1) 47%, rgba(49, 177, 238, 1) 100%)"
+      }}>
         
         <div className={estilos.contienedetalles}>
 

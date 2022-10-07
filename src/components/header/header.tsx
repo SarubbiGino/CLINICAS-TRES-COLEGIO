@@ -40,7 +40,11 @@ const ResponsiveAppBar = () => {
 
   return (
     <AppBar position="static" className={estilos.Appbar}>
-      <Container maxWidth="xl" className={estilos.contenedor} >
+      <Container maxWidth="xl" sx={{
+        display: 'flex',
+        justifyContent: 'center',
+        textAlign: 'center',
+      }} >
         <Toolbar disableGutters sx={{
           display: 'flex',
           justifyContent: 'center',
