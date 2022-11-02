@@ -11,6 +11,7 @@ import imagen1 from "../img/donadores.jpg";
 import { Box } from "@mui/material";
 import Footer from "../src/components/Footer";
 import { Container } from "@mui/system";
+import Requisitos from "../src/components/infoRequisitos/requisitos"
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
         <TituloMain />
         <h1 className={styles.empiezaDonar}>Empieza a Donar</h1>
         <Tarjetas/>
+        <Requisitos/>
       </main>
 
     </div>

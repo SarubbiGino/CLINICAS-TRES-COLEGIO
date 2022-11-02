@@ -16,6 +16,22 @@ import WhatsappIcon from '@mui/icons-material/WhatsApp';
 
 export default function Footer() {
   return (
+<<<<<<< HEAD
+  <Box className={estilos.footer}>
+    <Container maxWidth = "lg">
+        <Grid container spacing = {5} className={estilos.contenedorFooter} direction="column" alignItems="center" justifyContent="center">
+            <Grid item xs ={12} sm={4} className={estilos.contenedoRedesSociales} >
+
+             <Box className={estilos.redes}>Redes Sociales</Box>
+                <Box className={estilos.contenedorLogos} >
+                   <FacebookIcon className={estilos.logos}/>
+                   <TwitterIcon className={estilos.logos}/>
+                   <LinkedInIcon className={estilos.logos}/>
+                   <WhatsappIcon className={estilos.logos}/> 
+                </Box>
+            </Grid>
+            <Box className={estilos.clinicas}   alignItems="center" justifyContent="center" textAlign="center">HOSPITAL DE CLÍNICAS "JOSÉ DE SAN MARTÍN" All Rights Reserved</Box>
+=======
     <Box className={estilos.footer}>
       <Container maxWidth="lg">
         <Grid container spacing={5} className={estilos.contenedorFooter} direction="column" alignItems="center" justifyContent="center">
@@ -31,6 +47,7 @@ export default function Footer() {
             </Box>
           </Grid>
           <Box className={estilos.clinicas} alignItems="center" justifyContent="center" textAlign="center">HOSPITAL DE CLÍNICAS "JOSÉ DE SAN MARTÍN" All Rights Reserved</Box>
+>>>>>>> 24318aa0720723ffd93959d5b226a907b0a9b411
         </Grid>
       </Container>
     </Box>
